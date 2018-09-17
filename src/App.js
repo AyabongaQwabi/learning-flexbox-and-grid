@@ -79,7 +79,7 @@ class App extends Component {
          <br />
 
         <div className="lesson">
-        <p> The following div is stretched t3 times the size of other divs inside the flex-box container</p>
+        <p> The following div is stretched 2 times the size of the other div inside the flex-box container</p>
           <div className='example-container'>
             <div className='code'>
               <strong>CSS</strong>
