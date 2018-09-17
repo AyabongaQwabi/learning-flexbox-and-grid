@@ -8,7 +8,7 @@ export const blob1Html =
         <h1>Just flex 2</h1>
       </div>
    </div>
-   
+
 `
 export const blob2Html = 
 `
@@ -84,8 +84,8 @@ export const blob1Css =
     display: flex;
     flex:1;
   }
-  .x3{
-    flex:3;
+  .x2{
+    flex:2;
   }
 
   `
