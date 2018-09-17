@@ -1,0 +1,92 @@
+.header{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding:15px;
+  font-weight: 300;
+}
+.prettyprint{
+  height:100%;
+  width: 100% !important;
+  margin:auto !important;
+  padding:0 !important;
+  border-radius: 0px !important;
+}
+.lesson{
+  border: 3px solid #444;
+  display: flex;
+  flex-direction:column;
+  margin-left:10vw;
+  margin-right:10vw;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #3a3a3a ,#000);
+
+
+
+  p{
+    display: flex;
+    flex: 1;
+    padding:2vw;
+    color:#fff;
+  }
+  .example-container{
+    display: flex;
+    flex: 1;
+    .code{
+      display: flex;
+      flex:1;
+      flex-direction:column;
+      background: linear-gradient(to right, #77889912, #b9c9d029);
+      color: #b9c9d0;
+      strong{
+        text-align: center;
+        padding: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+      }
+    }
+    .example{
+      display: flex;
+      flex:2;
+      flex-direction:column;
+      border-top: 2px solid #555;
+      background: linear-gradient(to right, #77889912, #b9c9d029);
+      padding:15px;
+    }
+  }
+}
+
+.blobs-container{
+  background: orange;
+  padding: 2vw;
+  display: flex;
+}
+
+.blob{
+  background:#fff;
+  display: flex;
+  border: 1px solid grey;
+  padding:15px;
+}
+
+.blob h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.blobs-stretch-container{
+  background: orange;
+  padding: 2vw;
+  display: flex;
+  flex-direction: row;
+}
+.blob-stretch{
+  background:#fff;
+  display: flex;
+  border: 1px solid grey;
+  padding:15px;
+  flex:1;
+}
+
+.blob-stretch h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
