@@ -33,7 +33,11 @@ body{
   margin-right:10vw;
   border-radius: 10px;
   background: linear-gradient(to bottom right, #3a3a3a ,#000);
-
+  @media(max-width:768px){
+    margin-left:0vw;
+    margin-right:0vw;
+    border-radius: 0px;
+  }
 
 
   p{
@@ -45,6 +49,9 @@ body{
   .example-container{
     display: flex;
     flex: 1;
+    @media(max-width:768px){
+      flex-direction: column;
+    }
     .code{
       display: flex;
       flex:1;
@@ -56,6 +63,7 @@ body{
         padding: 5px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
       }
+      font-size: 10px;
     }
     .example{
       display: flex;
@@ -121,8 +129,8 @@ body{
   display: flex;
   flex:1;
 }
-.x3{
-  flex:3;
+.x2{
+  flex:2;
   background:#d3820a;
 }
 .blob-max-height h1{
