@@ -39,30 +39,24 @@ export const blob3Html =
 export const blob1Css =
 `
   .blobs-container{
-      background: orange;
       padding: 2vw;
       display: flex;
     }
 
     .blob{
-      background:#fff;
       display: flex;
-      border: 1px solid grey;
       padding:15px;
     }
   `
   export const blob2Css =
   `
   .blobs-stretch-container{
-    background: orange;
     padding: 2vw;
     display: flex;
     flex-direction: row;
   }
   .blob-stretch{
-    background:#fff;
     display: flex;
-    border: 1px solid grey;
     padding:15px;
     flex:1;
   }
@@ -72,14 +66,11 @@ export const blob1Css =
   export const blob3Css =
   `
   .blobs-max-height-container{
-    background: orange;
     padding: 2vw;
     display: flex;
     flex-direction: row;
   }
   .blob-max-height{
-    background:#fff;
-    border: 1px solid grey;
     padding:15px;
     display: flex;
     flex:1;
