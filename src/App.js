@@ -24,6 +24,28 @@ const blob2Html =
     </div>
 </div>
 `
+
+const blob3Html =
+`
+<div className='blobs-max-height-container'>
+    <div className='blob-max-height x1'>
+        <h1>Flex stretch 1</h1>
+    </div>
+    <div className='blob-max-height x2'>
+      <h1>Flex stretch 2</h1>
+    </div>
+    <div className='blob-max-height x3'>
+      <h1>Flex stretch 3</h1>
+    </div>
+    <div className='blob-max-height x4'>
+      <h1>Flex stretch 4</h1>
+    </div>
+    <div className='blob-max-height x5'>
+      <h1>Flex stretch 5</h1>
+    </div>
+</div>
+`
+
 const blob1Css =
 `
   .blobs-container{
@@ -54,6 +76,11 @@ const blob1Css =
     padding:15px;
     flex:1;
   }
+  `
+
+  const blob3Css =
+  `
+  .blobs-max-height-container{
   `
 class App extends Component {
   render() {
@@ -131,20 +158,49 @@ class App extends Component {
         </div>
          <br />
 
-
-          
-          
-
-         <br />
-          <p> The following divs are stretched to fill the container</p>
-          <div className='blobs-max-height-container'>
-            <div className='blob-max-height'>
-                <h1>Flex stretch 1</h1>
+        <div className="lesson">
+        <p> The following div is stretched t3 times the size of other divs inside the flex-box container</p>
+          <div className='example-container'>
+            <div className='code'>
+              <strong>CSS</strong>
+              <pre className="prettyprint">
+                <code>
+                    {blob3Css}
+                </code>
+            </pre>
             </div>
-            <div className='blob-max-height'>
-              <h1>Flex stretch 2</h1>
+            <div className='code'>
+              <strong> Html </strong>
+              <pre className="prettyprint">
+                <code>
+                  {blob3Html}
+                </code>
+            </pre>
             </div>
+            <div className='example'>
+              <div className='blobs-max-height-container'>
+                <div className='blob-max-height x1'>
+                    <h1>Flex stretch 1</h1>
+                </div>
+                <div className='blob-max-height x2'>
+                  <h1>Flex stretch 2</h1>
+                </div>
+                <div className='blob-max-height x3'>
+                  <h1>Flex stretch 3</h1>
+                </div>
+                <div className='blob-max-height x4'>
+                  <h1>Flex stretch 4</h1>
+                </div>
+                <div className='blob-max-height x5'>
+                  <h1>Flex stretch 5</h1>
+                </div>
+            </div>
+            </div>
+          </div>
         </div>
+         <br />
+          
+  
       </div>
     );
   }

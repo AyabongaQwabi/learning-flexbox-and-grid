@@ -1,8 +1,22 @@
+
+body{
+  background:linear-gradient(to top right, #FF5722, #268c94de);
+}
+.app{
+  margin-top:20vh;
+}
 .header{
-  text-align: center;
+  text-align: left;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding:15px;
+  padding: 8px 55px;
   font-weight: 300;
+  position: fixed;
+  color: white;
+  background: #212324;
+  width:100vw;
+  font-size:14px;
+  top:0;
+
 }
 .prettyprint{
   height:100%;
@@ -55,15 +69,16 @@
 }
 
 .blobs-container{
-  background: orange;
   padding: 2vw;
   display: flex;
 }
 
 .blob{
-  background:#fff;
+      background: #a82a47;
+      color:#fff;
   display: flex;
-  border: 1px solid grey;
+  border: 1px solid #000;
+  text-align: center;
   padding:15px;
 }
 
@@ -73,20 +88,44 @@
 }
 
 .blobs-stretch-container{
-  background: orange;
   padding: 2vw;
   display: flex;
   flex-direction: row;
 }
 .blob-stretch{
-  background:#fff;
+      background: #a82a47;
+      color:#fff;
   display: flex;
-  border: 1px solid grey;
+  border: 1px solid #000;
+  text-align: center;
   padding:15px;
   flex:1;
 }
 
 .blob-stretch h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.blobs-max-height-container{
+  padding: 2vw;
+  display: flex;
+  flex-direction: row;
+}
+.blob-max-height{
+      background: #a82a47;
+      color:#fff;
+  border: 1px solid #000;
+  text-align: center;
+  padding:15px;
+  display: flex;
+  flex:1;
+}
+.x3{
+  flex:3;
+  background:#d3820a;
+}
+.blob-max-height h1{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
 }
